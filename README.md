@@ -16,7 +16,8 @@
 </ul></p><br>
 <h3>Project Structure</h3>
 The project is structured as follows:
-<b>
+
+```
 apple-vision-pro-clone/
 │
 ├── index.html                 # Main HTML file for the homepage
@@ -33,43 +34,9 @@ apple-vision-pro-clone/
 │   ├── gsap.min.js
 │   └── ...
 └── README.md                  # Project documentation
-</b><br>
-<h3>
-Certainly! Based on the details and code snippets you've shared, here's a comprehensive documentation for your frontend project, including how you executed the project and integrated GSAP, Locomotive Scroll, and Canvas features. You can format this into a markdown file and upload it to your GitHub repository.
+```
 
-Apple Vision Pro Website Clone Documentation
-Introduction
-This project aims to replicate the Apple Vision Pro website using frontend web technologies. The goal is to showcase proficiency in web development skills, including HTML5, CSS3, and JavaScript, while incorporating advanced features such as animations using GSAP, smooth scrolling with Locomotive Scroll, and interactive elements using Canvas.
 
-Technologies Used
-HTML5: Used for structuring the content of web pages.
-CSS3: Utilized for styling and layout, including Flexbox and responsive design.
-JavaScript: Implemented for interactive elements and functionality enhancements.
-Bootstrap: Employed for responsive design components and utilities.
-GSAP (GreenSock Animation Platform): Used for advanced animations and effects.
-Locomotive Scroll: Implemented for smooth scrolling behavior.
-Canvas: Utilized for interactive and animated graphics.
-Project Structure
-The project is structured as follows:
-
-graphql
-Copy code
-apple-vision-pro-clone/
-│
-├── index.html                 # Main HTML file for the homepage
-├── css/
-│   ├── styles.css             # CSS file for styling
-│   └── ...
-├── js/
-│   ├── script.js              # JavaScript file for dynamic behavior
-│   └── ...
-├── img/                       # Directory for images and media assets
-│   ├── logo.png
-│   └── ...
-├── gsap/                      # GSAP library files (if applicable)
-│   ├── gsap.min.js
-│   └── ...
-└── README.md                  # Project documentation
 <h3>Features Implemented</h3>
 <b>Responsive Design</b>
 The website is designed to be fully responsive, ensuring optimal viewing experience across various devices.
@@ -109,6 +76,7 @@ const locoScroll = new LocomotiveScroll({
 <h3>Canvas Features
 </h3>
 Canvas was used for creating interactive graphics or animations. Below is an example snippet:
+
 ```javascript
 // Example Canvas animation snippet
 const canvas = document.querySelector('#myCanvas');
